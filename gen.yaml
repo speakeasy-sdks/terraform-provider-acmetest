@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docVersion: 1.0.0
+  speakeasyVersion: 1.77.1
+  generationVersion: 2.91.4
 generation:
   comments:
     disableComments: false
@@ -7,7 +12,11 @@ generation:
   sdkClassName: AcmeTest
   singleTagPerOp: false
   tagNamespacingDisabled: false
+features:
+  terraform:
+    core: 2.86.1
+    globalServerURLs: 2.82.0
 terraform:
-  version: 0.0.1
+  version: 0.1.0
   author: OH
   packageName: AcmeTest
