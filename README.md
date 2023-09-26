@@ -17,7 +17,7 @@ terraform {
   required_providers {
     AcmeTest = {
       source  = "OH/AcmeTest"
-      version = "0.2.2"
+      version = "0.3.0"
     }
   }
 }
@@ -48,6 +48,18 @@ TF_REATTACH_PROVIDERS=... terraform apply
 <!-- Start SDK Available Operations -->
 
 <!-- End SDK Available Operations -->
+
+
+
+<!-- Start Dev Containers -->
+
+
+
+<!-- End Dev Containers -->
+
+<!-- Placeholder for Future Speakeasy SDK Sections -->
+
+
 
 Terraform allows you to use local provider builds by setting a `dev_overrides` block in a configuration file called `.terraformrc`. This block overrides all other configured installation methods.
 
