@@ -17,7 +17,7 @@ terraform {
   required_providers {
     AcmeTest = {
       source  = "OH/AcmeTest"
-      version = "0.3.0"
+      version = "0.3.1"
     }
   }
 }
@@ -52,8 +52,6 @@ TF_REATTACH_PROVIDERS=... terraform apply
 
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
