@@ -3,8 +3,8 @@
 package validators
 
 import (
-	"AcmeTest/internal/sdk/pkg/types"
 	"context"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/types"
 	"github.com/hashicorp/terraform-plugin-framework-validators/helpers/validatordiag"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 )

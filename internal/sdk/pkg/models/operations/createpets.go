@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"AcmeTest/internal/sdk/pkg/models/shared"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/models/shared"
 	"net/http"
 )
 

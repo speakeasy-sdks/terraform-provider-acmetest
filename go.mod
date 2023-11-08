@@ -1,4 +1,4 @@
-module AcmeTest
+module github.com/OH/terraform-provider-AcmeTest
 
 go 1.18
 

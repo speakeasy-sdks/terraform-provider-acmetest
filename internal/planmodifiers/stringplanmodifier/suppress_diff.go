@@ -3,8 +3,8 @@
 package stringplanmodifier
 
 import (
-	"AcmeTest/internal/planmodifiers/utils"
 	"context"
+	"github.com/OH/terraform-provider-AcmeTest/internal/planmodifiers/utils"
 
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/planmodifier"
 )

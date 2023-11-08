@@ -3,13 +3,13 @@
 package sdk
 
 import (
-	"AcmeTest/internal/sdk/pkg/models/operations"
-	"AcmeTest/internal/sdk/pkg/models/sdkerrors"
-	"AcmeTest/internal/sdk/pkg/models/shared"
-	"AcmeTest/internal/sdk/pkg/utils"
 	"bytes"
 	"context"
 	"fmt"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/models/operations"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/models/sdkerrors"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/models/shared"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/utils"
 	"io"
 	"net/http"
 	"strings"

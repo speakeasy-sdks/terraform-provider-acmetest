@@ -3,8 +3,8 @@
 package sdk
 
 import (
-	"AcmeTest/internal/sdk/pkg/utils"
 	"fmt"
+	"github.com/OH/terraform-provider-AcmeTest/internal/sdk/pkg/utils"
 	"net/http"
 	"time"
 )
@@ -115,9 +115,9 @@ func New(opts ...SDKOption) *AcmeTest {
 		sdkConfiguration: sdkConfiguration{
 			Language:          "go",
 			OpenAPIDocVersion: "1.0.0",
-			SDKVersion:        "0.8.0",
-			GenVersion:        "2.181.1",
-			UserAgent:         "speakeasy-sdk/go 0.8.0 2.181.1 1.0.0 AcmeTest",
+			SDKVersion:        "0.9.0",
+			GenVersion:        "2.183.0",
+			UserAgent:         "speakeasy-sdk/go 0.9.0 2.183.0 1.0.0 AcmeTest",
 		},
 	}
 	for _, opt := range opts {
