@@ -2,18 +2,18 @@ configVersion: 1.0.0
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: 1.115.0
-  generationVersion: 2.183.0
+  speakeasyVersion: 1.116.0
+  generationVersion: 2.185.0
 generation:
   comments: {}
   sdkClassName: AcmeTest
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-acmetest.git
 features:
   terraform:
-    core: 3.3.0
+    core: 3.3.1
     globalServerURLs: 2.82.0
 terraform:
-  version: 0.9.0
+  version: 0.9.1
   author: OH
   imports:
     option: openapi
@@ -23,6 +23,8 @@ terraform:
       operations: operations
       shared: shared
       webhooks: webhooks
+  inputModelSuffix: input
+  outputModelSuffix: output
   packageName: AcmeTest
   published: true
   repoSubDirectory: .
