@@ -17,7 +17,7 @@ terraform {
   required_providers {
     AcmeTest = {
       source  = "OH/AcmeTest"
-      version = "0.11.1"
+      version = "0.12.0"
     }
   }
 }
@@ -51,6 +51,8 @@ TF_REATTACH_PROVIDERS=... terraform apply
 
 <!-- Start Available Resources and Operations [operations] -->
 ## Available Resources and Operations
+
+
 <!-- End Available Resources and Operations [operations] -->
 
 

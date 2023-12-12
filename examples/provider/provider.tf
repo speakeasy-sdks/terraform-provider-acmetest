@@ -2,7 +2,7 @@ terraform {
   required_providers {
     AcmeTest = {
       source  = "OH/AcmeTest"
-      version = "0.11.1"
+      version = "0.12.0"
     }
   }
 }
