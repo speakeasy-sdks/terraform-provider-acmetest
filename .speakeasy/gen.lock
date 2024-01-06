@@ -4,15 +4,15 @@ management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.12.0
-  configChecksum: ac514046a5e64e39a21c5776f1b40767
+  generationVersion: 2.228.1
+  releaseVersion: 0.13.0
+  configChecksum: a07c779b0df1e73ec7a430fcf6fd9608
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-acmetest.git
   repoSubDirectory: .
   published: true
 features:
   terraform:
-    core: 3.7.0
+    core: 3.8.0
     globalServerURLs: 2.82.1
 generatedFiles:
   - internal/sdk/pets.go
