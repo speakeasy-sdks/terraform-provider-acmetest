@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 9f110076-a4df-4804-8d22-d9ae9ef85d84
 management:
-  docChecksum: 2516596125ef223fbbef6c434d22eaac
+  docChecksum: 1bdb7a6f8bf3995d4b40475228403253
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.230.1
-  releaseVersion: 0.13.1
-  configChecksum: 525efe6673d12c2869f9f32d93afabaf
+  generationVersion: 2.230.3
+  releaseVersion: 0.13.2
+  configChecksum: 77f99dc903cb3d52d3d1638b49018582
   repoURL: https://github.com/speakeasy-sdks/terraform-provider-acmetest.git
   repoSubDirectory: .
   published: true
