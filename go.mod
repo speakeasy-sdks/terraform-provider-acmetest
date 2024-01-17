@@ -1,6 +1,6 @@
 module github.com/OH/terraform-provider-AcmeTest
 
-go 1.18
+go 1.20
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.0
