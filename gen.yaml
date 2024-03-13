@@ -6,8 +6,11 @@ generation:
   fixes:
     nameResolutionDec2023: false
     parameterOrderingFeb2024: false
+    requestResponseComponentNamesFeb2024: false
+  auth:
+    oAuth2ClientCredentialsEnabled: false
 terraform:
-  version: 0.14.0
+  version: 0.15.0
   author: OH
   imports:
     option: openapi
